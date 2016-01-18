@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script>
+  $(function() {
+    //$( "#datepicker" ).datepicker();
+  });
+  </script>
+ <!-- jQuery CDN link....  
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	 -->
+		<meta charset="UTF-8">	
+		<title>Super Kid Sports</title>  
+		<!-- link to an external style sheet (best practice with style sheet)-->
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body class="page"><!-- everything that is visual goes in the body tag  -->
+		<header>
+			<!-- the "banner" area or title of the page-->
+			<h1>SUPER KID Sports</h1> <!-- only h1 per page (for SEO purposes) --> 	
+		</header>
+		<nav class="nav1"> 
+			<ul>
+				<!-- these links are relative paths -->
+				<li> <a href="#">home</a></li>
+				<li> <a href="#">gallery</a></li>
+				<li> <a href="sign-up.html">Sign Up Here</a></li>
+				<li> <a href="#">Mobile Site</a></li>
+				<li> <a href="http://www.google.com">Google</a></li>
+			</ul>
+		</nav>
+		<div id="mainContent">
+            <h3>Sign up for Super Kid Baseball for ages 11-13</h3>
+            <!-- A Simple Form    -->
+    		<form id="sign-up-form" method="post" action="#">
+              <fieldset>
+                <h2>Athlete must be at least 11 and no older than 13 as of April 1, 2016</h2>
+                <br>
+                <ul>
+                   <li>
+                      <label id="f-name-label">Athlete's First Name</label>
+                      <input type="text" name="first-name" id="f-name-label" placeholder="Athlete's First Name" required />
+                   </li>
+                   <li>
+                      <label id="l-name-label">Athlete's Last Name</label>
+                      <input type="text" name="last-name" id="l-name-label" placeholder="Athlete's Last Name" required />
+                   </li>
+                   <li>
+                      <label>Date of Birth</label>
+                      <select name="year">
+                         <option value="2002">2002</option>     
+                         <option value="2003">2003</option> 
+                         <option value="2004">2004</option> 
+                         <option value="2005">2005</option> 
+                         <option value="2006">2006</option>  
+                       </select>
+                   </li>
+                   <li>
+                       <label>Date of Birth Month</label>
+                       <select name="month">
+                         <option value="1">January</option>
+                         <option value="2">February</option>
+                         <option value="3">March</option>
+                         <option value="4">April</option>
+                         <option value="5">May</option>
+                         <option value="6">June</option>
+                         <option value="7">July</option>
+                         <option value="8">August</option>
+                         <option value="9">September</option>
+                         <option value="10">October</option>
+                         <option value="11">November</option>
+                         <option value="12">December</option>
+                       </select>
+          
+                   </li>
+                   <li>
+                      <label>Date of Birth Day</label>
+                      <select name="day">
+                           <option value="1">1</option>     
+                           <option value="2">2</option> 
+                           <option value="3">3</option> 
+                           <option value="4">4</option> 
+                           <option value="5">5</option> 
+                           <option value="6">6</option> 
+                           <option value="7">7</option> 
+                           <option value="8">8</option> 
+                           <option value="9">9</option> 
+                           <option value="10">10</option> 
+                           <option value="11">11</option> 
+                           <option value="12">12</option> 
+                           <option value="13">13</option> 
+                           <option value="14">14</option> 
+                           <option value="15">15</option> 
+                           <option value="16">16</option> 
+                           <option value="17">17</option> 
+                           <option value="18">18</option> 
+                           <option value="19">19</option> 
+                           <option value="20">20</option>
+                           <option value="21">21</option>
+                           <option value="22">22</option>
+                           <option value="23">23</option>
+                           <option value="24">24</option>
+                           <option value="25">25</option>
+                           <option value="26">26</option>
+                           <option value="27">27</option>
+                           <option value="28">28</option>
+                           <option value="29">29</option>
+                           <option value="30">30</option>
+                           <option value="31">31</option>
+                       </select>
+                   </li>
+                   <li>
+                       <label>Gender:</label>
+                       <br>
+                       <input type="radio" name="gender" value="male" checked> Male<br>
+                       <input type="radio" name="gender" value="female"> Female<br>
+                   </li>
+                   <br>
+                    <li>
+                      <label id="f-name-label">Parent/Guardian's First Name</label>
+                      <input type="text" name="first-name" id="f-name-label" placeholder="Parent/Guardian's First Name" required />
+                   </li>
+                   <li>
+                      <label id="l-name-label">Parent/Guardian's Last Name</label>
+                      <input type="text" name="last-name" id="l-name-label" placeholder="Parent/Guardian's Last Name" required />
+                   </li>
+                   <li>
+                       <label>Please enter a valid email</label>
+                       <input type="email" name="email" required />
+                   </li>
+                   <li>
+                       <label>Street Address</label>
+                       <input type="text" name="address" placeholder="Street Address"  required />
+                   </li>
+                   <li>
+                       <label>Enter zip code</label>
+                       <input type="text" placeholder="99203" pattern="^[0-9]{5}" required />
+                   </li>
+                </ul>
+                      <input type="submit" name="submit" />
+              </fieldset>
+            </form>
+          </div><!-- closing maincContent div tag -->
+		
+		
+        <!--  This is the footer section, only footer stuff -->
+		 <footer>
+			<p>&copy; copyright 2015</p>
+			
+		 </footer>
+
+	</body>
+</html>
